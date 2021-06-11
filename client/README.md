@@ -34,7 +34,6 @@ Directories should be like following structure.
             +---stores
                 +---[FUNCTION NAME]
                     +---actions.js
-                    +---apis.js
                     +---constants.js
                     +---logics.js
                     +---reducer.js
