@@ -23,7 +23,9 @@ class WorkbenchContainer extends React.Component {
                 <Container fluid>
                     <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">
                         <Tab eventKey="ui" title="User Interface">
-                            <UserInterfaceModule />
+                            <UserInterfaceModule
+                                ui={ this.props.ui }
+                            />
                         </Tab>
                         <Tab eventKey="gc" title="Game Components">
                             <GameComponentModule />
